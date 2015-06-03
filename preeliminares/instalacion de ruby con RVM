@@ -1,0 +1,17 @@
+Step One— Install Ruby with RVM
+
+	sudo apt-get update
+	sudo apt-get install curl
+	\curl -L https://get.rvm.io | bash -s stable
+	source ~/.rvm/scripts/rvm #poner en el .bashrc
+	rvm requirements
+
+Step Two—Install Ruby
+
+	rvm install ruby
+	rvm use ruby --default
+
+Step Three—Install RubyGems
+
+	 rvm rubygems current
+	 
