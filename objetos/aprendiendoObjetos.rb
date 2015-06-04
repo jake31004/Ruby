@@ -10,15 +10,15 @@ end
 metodo #regresa main
 
 #comprobacion de que todo en ruby es un objeto
-p 1.methods #lista de todos los metodos que tiene un enteros
+p 1.methods #lista de todos los metodos que tiene un entero
 puts ""
 p [1,2].methods.sort  #lista de todos los metodos que tiene un arreglo
 
-#los operadores son metodos de los objetos
-p 1.+(2) #metodo suma
-p 2.-(1) #metodo resta
+#los operadores son métodos de los objetos
+p 1.+(2) #método suma (1+2)
+p 2.-(1) #método resta (2-1)
 arreglo = [1,2,3]
-p arreglo.[](0) #metodo corchetes para el arreglo
+p arreglo.[](0) #método corchetes para el arreglo (arreglo[0])
 #como ruby se enfoca en la facilidad, los operadores se pueden escribir de forma "normal"
 #pero siguen siendo métodos de los objetos
 
